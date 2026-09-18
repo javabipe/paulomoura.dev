@@ -1,13 +1,11 @@
 # paulomoura.dev
 
-Personal site for **Paulo Moura Martins** — LLM engineer, AI agent developer, and senior software engineer based in Montreal.
+Flutter web portfolio for **Paulo Moura Martins**, based on the open-source [nitin-portfolio](https://github.com/Nitingora09/nitin-portfolio) template, rewritten with resume content and an English / Français flag switcher.
 
-Bilingual English / Français. Static HTML served by nginx at [https://paulomoura.dev](https://paulomoura.dev).
-
-## Local
-
-Open `index.html` or serve the folder:
+Live: [https://paulomoura.dev](https://paulomoura.dev)
 
 ```bash
-python3 -m http.server 8080
+flutter pub get
+flutter run -d chrome
+flutter build web --release --base-href /
 ```

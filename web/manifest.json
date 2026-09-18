@@ -1,0 +1,23 @@
+{
+    "name": "Paulo Moura Martins",
+    "short_name": "Paulo Moura",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0B1018",
+    "theme_color": "#0B1018",
+    "description": "LLM engineer portfolio — Montreal.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
