@@ -359,7 +359,7 @@ h1 {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  object-position: center 12%;
+    object-position: center 8%;
   background: #000;
   filter: contrast(1.04) saturate(0.92);
 }
@@ -788,9 +788,12 @@ footer {
   }
 
   .portrait-wrap {
-    order: -1;
     justify-self: center;
-    width: min(100%, 380px);
+    width: min(100%, 280px);
+  }
+
+  .portrait-frame img {
+    object-position: center 10%;
   }
 
   .mobile-panel.open {
